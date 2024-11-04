@@ -38,6 +38,12 @@ export const TestMessageSchema = {
               type: 'string',
               doc: 'Message',
             },
+            {
+              name: 'message2',
+              type: ['null', 'string'],
+              doc: 'Message2',
+              default: null,
+            },
           ],
         },
         doc: 'Message Payload',
